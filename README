@@ -1,0 +1,27 @@
+Find the closet free wifi, public library, or walgreens by texting 512 782-2513 with your command and postal code or airport code. Commands are wifi, library, walgreens, and help. Eg. "wifi 78702". Or "walgreens AUS"
+
+Walmarts and ATM's are coming soon.
+
+What Problem Does this Solve?
+
+Oh yeah. You just landed in a new city and realized you forgot your cherry limeade chapstick. So you text "walgreens AUS" to 512 782-2513. A second later you get a text back with the closest Walgreens. Boom.
+
+You check in to your hotel and ask yourself "where the free wifi at?" Is that textable? Next thing you know you're at a Panera pulling down torrents at 83kb/s while eating a nice artisan focaccia.
+
+Or maybe you just want to get your read on. (library 90210)
+
+Textable helps you find a few important things nearby quickly.
+
+Instructions:
+
+
+--------------
+To run:
+shotgun remoteavore.rb -p 4567
+
+NOTE: shotgun does not appear to be compatibility with mongo and 1.9.2. I get "keys must be strings or symbols"
+
+Without shotgun:
+ruby remoteavore.rb -p 4567
+
+Note: shotgun is a gem that reloads sinatra at every request so to refresh the code. It's much slower, but if you're actively working in the code, it's probably worth it.
